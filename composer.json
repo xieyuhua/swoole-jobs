@@ -1,0 +1,34 @@
+{
+    "name": "kcloze/swoole-jobs",
+    "description": "基于swoole的job调度组件，类似gearman的分布式任务处理系统",
+    "keywords": ["swoole", "job", "scheduler", "调度"],
+    "homepage": "https://github.com/kcloze/swoole-jobs",
+    "license": "MIT",
+    "require": {
+        "php": ">=8.0",
+        "ext-swoole": ">=4.8",
+        "ext-redis": "*",
+        "symfony/console": "^6.1",
+        "bramus/router": "^1.6",
+        "guzzlehttp/guzzle": "^7.5"
+        
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^4.8.35 || ^5.7"
+    },
+    "authors": [
+        {
+            "name": "kcloze",
+            "email": "pei.greet@qq.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Kcloze\\Jobs\\": "src"
+        }
+    },
+    "bin": [
+        "swoole-jobs"
+    ]
+    
+}
