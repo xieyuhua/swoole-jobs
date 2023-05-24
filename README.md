@@ -5,6 +5,8 @@
 * 无需像gearman一个worker配置一条crontab，swoole-jobs负责管理所有worker状态
 * 独立的swoole http api 入队列，api不依赖php-fpm
 
+ 里程碑
+![image](https://github.com/xieyuhua/swoole-jobs/assets/29120060/3c7f16d5-9c6c-479f-8905-d4c17afad87f)
 
 ## 1. 说明
 
