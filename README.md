@@ -6,7 +6,8 @@
 * 独立的swoole http api 入队列，api不依赖php-fpm
 
  里程碑
-![image](https://github.com/xieyuhua/swoole-jobs/assets/29120060/3c7f16d5-9c6c-479f-8905-d4c17afad87f)
+ ![image](https://github.com/xieyuhua/swoole-jobs/assets/29120060/39224fd8-cf27-4f08-ab23-eda25054b875)
+
 
 ## 1. 说明
 
